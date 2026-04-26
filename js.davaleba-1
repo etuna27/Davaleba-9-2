@@ -1,0 +1,13 @@
+function comparator(m,n)
+{
+    if(m == n)
+        return 0;
+
+    if(m > n)
+        return m;
+    else
+        return n;
+}
+
+let result = comparator(9, 7);
+console.log(result);
