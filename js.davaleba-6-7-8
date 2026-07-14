@@ -1,0 +1,35 @@
+let student = {
+    firstName: "Etuna",
+    lastName: "Natroshvili",
+    age: 28,
+    scores: [4,7,5,3,2],
+
+    fullName()
+    {
+        return this.firstName + " " + this.lastName;
+    },
+
+    print()
+    {       
+        console.log(this.firstName + " " + this.age)
+    }
+}
+
+// 6
+console.log(student.fullName());
+
+// 7
+function sum(array)
+{
+    let sum = 0;
+    array.forEach(element => {
+        sum = sum + element;
+    });
+
+    return sum;
+}
+
+console.log(sum(student.scores));
+
+// 8
+student.print()

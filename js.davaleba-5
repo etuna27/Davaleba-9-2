@@ -1,0 +1,13 @@
+function namravli(n)
+{
+    let namravli = 1;
+    for(let i=1; i<n; i++)
+    {
+        namravli = namravli * i;
+    }
+
+    return namravli;
+}
+ 
+let result = namravli(7);
+console.log(result);

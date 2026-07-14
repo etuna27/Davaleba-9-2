@@ -1,0 +1,7 @@
+function fullName(firstName, lastName)
+{
+    return firstName + " " + lastName;
+}
+
+let result = fullName("Etuna", "Natroshvili");
+console.log(result);
